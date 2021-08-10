@@ -333,7 +333,7 @@ td {
 .lista,
 .tabla {
     font-size: 180%;
-    margin: 5%;
+    margin: 8%;
     list-style-type: circle;
     color: white;
     padding: 1%;
@@ -350,6 +350,7 @@ td {
 
 .listaOperadores li {
     padding: 1%;
+    text-decoration: none;
 }
 
 .negrita {
