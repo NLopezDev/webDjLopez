@@ -66,7 +66,7 @@ h2 {
     float: center;
     margin-top: 6%;
     margin-bottom: 5%;
-    margin-left: 1px;
+    margin-left: 0.5px;
 }
 
 
@@ -80,7 +80,7 @@ h3 {
     float: center;
     margin-top: 6%;
     margin-bottom: 5%;
-    margin-left: 8%;
+    margin-left: 3%;
 }
 
 
@@ -339,6 +339,19 @@ td {
     padding: 1%;
 }
 
+.listaOperadores {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 4%;
+    list-style-type: circle;
+    color: white;
+    padding: 1%;
+}
+
+.listaOperadores li {
+    padding: 1%;
+}
+
 .negrita {
     font-family: cursive;
     color: rgb(62, 184, 32);
@@ -356,6 +369,24 @@ td {
     margin-bottom: 4%;
     color: whitesmoke;
     font-size: 150%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-family: cursive;
+    color: rgb(62, 184, 32);
+    font-size: 240%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.text {
+    font-size: 160%;
+    color: white;
+    padding: 10px;
 }
 
 
