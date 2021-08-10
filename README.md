@@ -1,5 +1,5 @@
-@@ -0,0 +1,15 @@
-#  Nico Lopez Djs
+
+#  Nico Lopez Dj
 
 
 La web esta volcada a una web de servicios de disc jockey. 
