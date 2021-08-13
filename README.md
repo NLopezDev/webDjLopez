@@ -2,8 +2,7 @@
 #  Nico Lopez Dj
 
 
-La web esta volcada a una web de servicios de disc jockey. 
-En donde la misma figura historia, disc jockey, servicios y un formulario. 
+La web esta volcada a una web de servicios de disc jockey. En donde esta orientada a clientes que necesiten Disc Jockey, sonido, iluminacion, pantallas, etc para su evento.
 
 ##  Construido con 🛠️
 
