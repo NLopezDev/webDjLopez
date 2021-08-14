@@ -22,14 +22,14 @@ body {
     /* MENU CON SUBMENU */
     .navbar {
         overflow: hidden;
-        background-color: #1f0778;
+        margin-bottom: 0%;
     }
     .navbar a {
         float: center;
-        font-size: 16px;
+        font-size: 12px;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 12px;
         text-decoration: none;
     }
     .subnav {
@@ -37,11 +37,11 @@ body {
         overflow: hidden;
     }
     .subnav .subnavbtn {
-        font-size: 16px;
+        font-size: 12px;
         border: none;
         outline: none;
         color: white;
-        padding: 14px 16px;
+        padding: 10px 12px;
         background-color: inherit;
         font-family: inherit;
         margin: 0;
@@ -133,6 +133,7 @@ body {
         margin-left: 1px;
     }
     .video {
+        margin-top: 0%;
         overflow: hidden;
         position: relative;
         height: 100%;
@@ -342,14 +343,14 @@ body {
     /* MENU CON SUBMENU */
     .navbar {
         overflow: hidden;
-        background-color: #1f0778;
+        margin-bottom: 0%;
     }
     .navbar a {
         float: left;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 12px 14px;
         text-decoration: none;
     }
     .subnav {
@@ -357,11 +358,11 @@ body {
         overflow: hidden;
     }
     .subnav .subnavbtn {
-        font-size: 16px;
+        font-size: 14px;
         border: none;
         outline: none;
         color: white;
-        padding: 14px 16px;
+        padding: 12px 14px;
         background-color: inherit;
         font-family: inherit;
         margin: 0;
@@ -608,7 +609,7 @@ body {
 }
 
 
-/* *************************************MEDIA min-width 768px ************************************************/
+/* ************************************* MEDIA min-width 768px ************************************************/
 
 @media only screen and (min-width:768px) {
     .grid {
@@ -618,14 +619,14 @@ body {
     /* MENU CON SUBMENU */
     .navbar {
         overflow: hidden;
-        background-color: #1f0778;
+        margin-bottom: 0%;
     }
     .navbar a {
         float: left;
         font-size: 16px;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 4px 8px 0px;
         text-decoration: none;
     }
     .subnav {
@@ -637,7 +638,7 @@ body {
         border: none;
         outline: none;
         color: white;
-        padding: 14px 16px;
+        padding: 4px 8px 0px;
         background-color: inherit;
         font-family: inherit;
         margin: 0;
