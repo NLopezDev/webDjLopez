@@ -83,7 +83,7 @@ body {
         text-align: right;
         position: relative;
         top: 5px;
-        left: 30px;
+        left: 5px;
     }
     a {
         text-decoration: none;
@@ -181,7 +181,7 @@ body {
         color: whitesmoke;
         font-size: 90%;
     }
-    /* IMAGENES DJS (NOSOTROS) */
+    /**** IMAGENES DJS (NOSOTROS) ****/
     /* DISPLAY */
     .imagen_nico {
         display: inline;
@@ -283,7 +283,7 @@ body {
     }
     .imagenes_evento1 {
         border-style: inset;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .imagenes_evento2 {
         border-style: outset;
@@ -420,6 +420,134 @@ body {
     /* DISPLAY  FLEX*/
     footer nav .menu {
         display: flex;
+    }
+    /**** IMAGENES DJS (NOSOTROS) ****/
+    /* DISPLAY */
+    .imagen_nico {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djnico {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(6deg);
+    }
+    /* DISPLAY */
+    .imagen_axel {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djaxel {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(-6deg);
+    }
+    /* DISPLAY */
+    .imagen_rama {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djrama {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(6deg);
+    }
+    /******************** SECTION  ******************/
+    .red {
+        float: none;
+        margin-left: 10%;
+        padding: 6%;
+    }
+    .image {
+        margin: 6px;
+        padding: 2px;
+    }
+    .image img {
+        height: 280px;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-body h5 {
+        padding-top: 4px;
+    }
+    /* DISPLAY */
+    .imagen_gabi {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djgabi {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(-6deg);
+    }
+    .dj h3 {
+        font-size: x-large;
+        color: coral;
+        font-family: cursive;
+        text-align: left;
+    }
+    .dj {
+        float: inline-start;
+        padding-right: 10px;
+        display: block;
+    }
+    section article img {
+        margin: 10px;
+    }
+    /* IMAGENES JUNTAS 1*/
+    .imagenes_evento1,
+    imagenes_evnto2,
+    imagenes_evento3,
+    imagenes_evento4,
+    imagenes_evento5,
+    imagenes_evento6 {
+        grid-area: imagenes_evento1, imagenes_evnto2, imagenes_evento3, imagenes_evento4, imagenes_evento5, imagenes_evento6;
+    }
+    .centro {
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-areas: "imagenes_evento1" "imagenes_evento2" "imagenes_evento3" "imagenes_evento4" "imagenes_evento5" "imagenes_evento6";
+    }
+    .imagenes_evento1 {
+        border-style: inset;
+        margin-left: 10%;
+    }
+    .imagenes_evento2 {
+        border-style: outset;
+    }
+    .imagenes_evento5 {
+        border-style: inset;
+        margin-left: 30%;
+    }
+    /* IMAGENES JUNTAS 2*/
+    .imagenes_evento3 {
+        border-style: groove;
+        margin-left: 9%;
+    }
+    .imagenes_evento4 {
+        border-style: ridge;
+        margin-left: 2%;
+    }
+    .imagenes_evento6 {
+        border-style: outset;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    .redes2 {
+        padding: 9%;
     }
     /* DISPLAY */
     footer nav .menu li a {
@@ -601,6 +729,134 @@ body {
         position: relative;
         display: inline-block;
         text-align: right;
+    }
+    /**** IMAGENES DJS (NOSOTROS) ****/
+    /* DISPLAY */
+    .imagen_nico {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djnico {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(6deg);
+    }
+    /* DISPLAY */
+    .imagen_axel {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djaxel {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(-6deg);
+    }
+    /* DISPLAY */
+    .imagen_rama {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djrama {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(6deg);
+    }
+    /******************** SECTION  ******************/
+    .red {
+        float: none;
+        margin-left: 10%;
+        padding: 6%;
+    }
+    .image {
+        margin: 6px;
+        padding: 2px;
+    }
+    .image img {
+        height: 280px;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-body h5 {
+        padding-top: 4px;
+    }
+    /* DISPLAY */
+    .imagen_gabi {
+        display: inline;
+        margin-left: 15%;
+    }
+    .djgabi {
+        float: right;
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 25%;
+        color: whitesmoke;
+        transform: rotate(-6deg);
+    }
+    .dj h3 {
+        font-size: x-large;
+        color: coral;
+        font-family: cursive;
+        text-align: left;
+    }
+    .dj {
+        float: inline-start;
+        padding-right: 10px;
+        display: block;
+    }
+    section article img {
+        margin: 10px;
+    }
+    /* IMAGENES JUNTAS 1*/
+    .imagenes_evento1,
+    imagenes_evnto2,
+    imagenes_evento3,
+    imagenes_evento4,
+    imagenes_evento5,
+    imagenes_evento6 {
+        grid-area: imagenes_evento1, imagenes_evnto2, imagenes_evento3, imagenes_evento4, imagenes_evento5, imagenes_evento6;
+    }
+    .centro {
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-areas: "imagenes_evento1" "imagenes_evento2" "imagenes_evento3" "imagenes_evento4" "imagenes_evento5" "imagenes_evento6";
+    }
+    .imagenes_evento1 {
+        border-style: inset;
+        margin-left: 10%;
+    }
+    .imagenes_evento2 {
+        border-style: outset;
+    }
+    .imagenes_evento5 {
+        border-style: inset;
+        margin-left: 30%;
+    }
+    /* IMAGENES JUNTAS 2*/
+    .imagenes_evento3 {
+        border-style: groove;
+        margin-left: 9%;
+    }
+    .imagenes_evento4 {
+        border-style: ridge;
+        margin-left: 2%;
+    }
+    .imagenes_evento6 {
+        border-style: outset;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    .redes2 {
+        padding: 9%;
     }
     .redes {
         text-align: center;

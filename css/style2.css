@@ -440,10 +440,6 @@ td {
     transition: width 5s;
 }
 
-.formulario:hover {
-    width: 280px;
-}
-
 .formulario2 {
     margin: 1%;
     font-size: 150%;
