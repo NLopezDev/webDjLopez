@@ -337,6 +337,39 @@ body {
         position: absolute;
         transform: translate(-20%, -20%);
     }
+    /* FORMULARIO */
+    .formulario {
+        margin: 1%;
+        font-size: 130%;
+        color: black;
+        transition: width 5s;
+    }
+    .formulario2 {
+        margin: 1%;
+        font-size: 150%;
+        color: whitesmoke;
+        padding-right: 2%;
+    }
+    .formulario3 {
+        margin: 1%;
+        font-size: 150%;
+        color: black;
+    }
+    #nombre {
+        padding-left: 2%;
+        color: black;
+    }
+    #apellido {
+        padding-left: 2%;
+        color: black;
+    }
+    #email {
+        padding-left: 2%;
+        color: black;
+    }
+    #consulta {
+        margin-left: 12%;
+    }
 }
 
 
@@ -775,6 +808,12 @@ td {
     color: whitesmoke;
 }
 
+.formulario3 {
+    margin: 1%;
+    font-size: 150%;
+    color: black;
+}
+
 #nombre {
     margin-left: 2%;
     color: black;
@@ -786,7 +825,7 @@ td {
 }
 
 #email {
-    margin-left: 3%;
+    margin-left: 3.5%;
     color: black;
 }
 
