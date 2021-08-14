@@ -1,25 +1,26 @@
 {
-    "name": "webdjlopez",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build-css": "node-sass --include-path scss scss/style.scss css/main",
-        "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    },
-    "author": "",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/NLopezDev/webDjLopez.git"
-    },
-    "bugs": {
-        "url": "https://github.com/NLopezDev/webDjLopez/issues"
-    },
-    "homepage": "https://github.com/NLopezDev/webDjLopez#readme",
-    "description": "",
-    "devDependencies": {
-        "node-sass": "^6.0.1",
-        "nodemon": "^2.0.12"
-    }
+  "name": "webdjlopez",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style3.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NLopezDev/webDjLopez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NLopezDev/webDjLopez/issues"
+  },
+  "homepage": "https://github.com/NLopezDev/webDjLopez#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {}
 }

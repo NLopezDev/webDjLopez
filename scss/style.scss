@@ -1,5 +1,8 @@
+//VARIABLES
+$colorFondo:radial-gradient(circle at 48.28% 59.73%, #5c2e64 0, #4a1f5f 16.67%, #32105b 33.33%, #080457 50%, #000053 66.67%, #000050 83.33%, #00004e 100%);
+//BODY
 body {
-    background-image: radial-gradient(circle at 48.28% 59.73%, #5c2e64 0, #4a1f5f 16.67%, #32105b 33.33%, #080457 50%, #000053 66.67%, #000050 83.33%, #00004e 100%);
+    background-image: $colorFondo;
 }
 
 * {
