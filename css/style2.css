@@ -113,7 +113,7 @@ body {
     footer p {
         text-align: center;
         color: antiquewhite;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
     }
     h1 {
         font-size: 200%;
@@ -187,41 +187,59 @@ body {
     /* DISPLAY */
     .imagen_nico {
         display: inline;
-        margin-left: 15%;
+        margin-left: 6%;
     }
     .djnico {
         float: right;
+        font-size: 120%;
         text-align: center;
-        margin-top: 15%;
-        margin-right: 25%;
+        margin-top: 8%;
+        margin-right: 2%;
         color: whitesmoke;
         transform: rotate(6deg);
     }
     /* DISPLAY */
     .imagen_axel {
         display: inline;
-        margin-left: 15%;
+        margin-left: 6%;
     }
     .djaxel {
         float: right;
+        font-size: 120%;
         text-align: center;
-        margin-top: 15%;
-        margin-right: 25%;
+        margin-top: 4%;
+        margin-right: 2%;
         color: whitesmoke;
         transform: rotate(-6deg);
     }
     /* DISPLAY */
     .imagen_rama {
         display: inline;
-        margin-left: 15%;
+        margin-left: 6%;
+        margin-bottom: 1%;
     }
     .djrama {
         float: right;
+        font-size: 120%;
         text-align: center;
-        margin-top: 15%;
-        margin-right: 25%;
+        margin-top: 4%;
+        margin-right: 2%;
         color: whitesmoke;
         transform: rotate(6deg);
+    }
+    .imagen_joel {
+        display: inline;
+        margin-left: 6%;
+        margin-bottom: 1%;
+    }
+    .djjoel {
+        float: right;
+        font-size: 120%;
+        text-align: center;
+        margin-top: 4%;
+        margin-right: 2%;
+        color: whitesmoke;
+        transform: rotate(-6deg);
     }
     /******************** SECTION  ******************/
     .red {
@@ -243,18 +261,6 @@ body {
         padding-top: 4px;
     }
     /* DISPLAY */
-    .imagen_joel {
-        display: inline;
-        margin-left: 15%;
-    }
-    .djjoel {
-        float: right;
-        text-align: center;
-        margin-top: 15%;
-        margin-right: 25%;
-        color: whitesmoke;
-        transform: rotate(-6deg);
-    }
     .dj h3 {
         font-size: x-large;
         color: coral;
