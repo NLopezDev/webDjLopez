@@ -309,10 +309,25 @@ body {
     .redes2 {
         padding: 9%;
     }
-    nav .menuError {
-        text-decoration: none;
+    /****** NAV ERROR 404 *******/
+    .contenedorError {
+        position: relative;
+        display: inline-block;
+    }
+    .texto-encimaError {
         text-align: center;
-        font-size: 240%;
+        position: absolute;
+        top: 55%;
+        left: 30%;
+        z-index: 10;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 140%;
+        font-family: cursive;
+    }
+    .img {
+        position: absolute;
+        transform: translate(-20%, -20%);
     }
 }
 
@@ -442,10 +457,25 @@ body {
     .redes {
         text-align: center;
     }
-    nav .menuError {
-        text-decoration: none;
+    /****** NAV ERROR 404 *******/
+    .contenedorError {
+        position: relative;
+        display: inline-block;
+    }
+    .texto-encimaError {
         text-align: center;
-        font-size: 240%;
+        position: absolute;
+        top: 50%;
+        left: 200px;
+        z-index: 10;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 150%;
+        font-family: cursive;
+    }
+    .img {
+        position: absolute;
+        transform: translate(-20%, -20%);
     }
 }
 
