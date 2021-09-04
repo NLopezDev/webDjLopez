@@ -583,6 +583,12 @@ td {
 .card-body {
   text-align: center; }
 
+.card-body li {
+  text-decoration: none; }
+
+.text li {
+  text-decoration: none; }
+
 .card-title {
   font-family: cursive;
   color: #3eb820;
